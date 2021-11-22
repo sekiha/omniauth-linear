@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.version       = OmniAuth::Linear::VERSION
 
   gem.add_dependency 'omniauth', '~> 1.5'
-  gem.add_dependency 'omniauth-oauth2', '>= 1.4.0', '< 2.0'
+  gem.add_dependency 'omniauth-oauth2', '>= 1.4.0'
   gem.add_dependency 'graphlient'
   gem.add_development_dependency 'rspec', '~> 3.5'
   gem.add_development_dependency 'rack-test'
